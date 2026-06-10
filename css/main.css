@@ -1,0 +1,22 @@
+
+:root {
+  --primary: #111111;
+  --secondary: #6A0DAD;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Inter', system-ui, sans-serif; margin: 0; }
+.style-neon { font-family: 'JetBrains Mono', monospace; }
+.neon-grid {
+  background-image: linear-gradient(rgba(139,43,226,0.08) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(139,43,226,0.08) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+.neon-glow { text-shadow: 0 0 20px var(--primary), 0 0 40px var(--primary); }
+.neon-text { text-shadow: 0 0 30px var(--primary); }
+.parallax-section { transform: translateZ(0); will-change: transform; }
+.scroll-section { opacity: 0; transform: translateY(30px); animation: fadeUp 0.8s ease forwards; }
+@keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+
+.hero-bg { background-size: cover; background-position: center; background-repeat: no-repeat; }
+#dz-bridge-overlay { position: fixed; inset: 0; pointer-events: none; z-index: 9999; }
