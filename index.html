@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Barber Shop — Neon Cyberpunk — Barber Shop"/>
+  <title>Barber Shop Star Club | Barber Shop</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/main.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+
+<body class="style-neon bg-[#050508] text-cyan-50">
+  <div class="neon-grid fixed inset-0 -z-10"></div>
+  <nav class="fixed top-0 w-full z-50 bg-black/80 border-b border-[var(--primary)]/40 px-6 py-4 flex justify-between items-center">
+    <div class="flex items-center gap-3" data-dz-id="logo">
+      <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447a?auto=format&fit=crop&w=512&q=80" alt="Barber Shop Star Club" class="h-9 w-auto" data-dz-id="logo-img" onerror="this.style.display='none'"/>
+      <span class="font-mono text-[var(--primary)] neon-glow" data-dz-editable="logo-text">Barber Shop Star Club</span>
+    </div>
+    <a href="#contact" class="font-mono px-5 py-2 border border-[var(--primary)] text-[var(--primary)] hover:bg-[var(--primary)] hover:text-black transition">Book Now</a>
+  </nav>
+  <section id="hero" data-dz-id="hero" class="hero-bg min-h-screen flex flex-col justify-center px-6 pt-24 relative" style="background-image:linear-gradient(rgba(5,5,8,0.82),rgba(5,5,8,0.82)),url('https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=1920&q=80')">
+    <div class="absolute top-1/3 left-1/4 w-64 h-64 bg-[var(--primary)] rounded-full blur-[120px] opacity-20"></div>
+    <span class="font-mono text-xs text-[var(--primary)] mb-4" data-dz-editable="hero-slogan">// Experience the difference.</span>
+    <h1 class="text-5xl md:text-7xl font-black mb-6 neon-text" data-dz-editable="hero-title">Barber Shop Star Club</h1>
+    <p class="text-lg text-cyan-100/60 max-w-xl mb-10 font-mono" data-dz-editable="hero-sub">Premium barber shop in Casablanca, Morocco</p>
+    <a href="https://wa.me/212600000000" class="w-fit px-10 py-4 bg-[var(--primary)] text-black font-bold font-mono uppercase tracking-widest">Book Now</a>
+  </section>
+  <section id="services" data-dz-id="services" class="py-24 px-6">
+    <h2 class="font-mono text-3xl text-[var(--primary)] mb-12" data-dz-editable="services-heading">&gt; Our Barber Shop</h2>
+    <div class="grid md:grid-cols-3 gap-6"><div class="p-6 border border-[var(--primary)]/40 bg-black/50" data-dz-id="service-0" data-dz-editable="service-0">
+              <div class="text-2xl mb-3">✂️</div>
+              <h3 class="text-xl font-bold mb-2" data-dz-editable="service-title-0">Signature Service</h3>
+              <p class="text-sm opacity-70" data-dz-editable="service-desc-0">Our most requested premium offering.</p>
+            </div><div class="p-6 border border-[var(--primary)]/40 bg-black/50" data-dz-id="service-1" data-dz-editable="service-1">
+              <div class="text-2xl mb-3">✂️</div>
+              <h3 class="text-xl font-bold mb-2" data-dz-editable="service-title-1">Express Package</h3>
+              <p class="text-sm opacity-70" data-dz-editable="service-desc-1">Fast turnaround without compromising quality.</p>
+            </div><div class="p-6 border border-[var(--primary)]/40 bg-black/50" data-dz-id="service-2" data-dz-editable="service-2">
+              <div class="text-2xl mb-3">✂️</div>
+              <h3 class="text-xl font-bold mb-2" data-dz-editable="service-title-2">VIP Experience</h3>
+              <p class="text-sm opacity-70" data-dz-editable="service-desc-2">Full-service treatment for discerning clients.</p>
+            </div></div>
+  </section>
+  
+  <section id="gallery" data-dz-id="gallery" class="py-24 px-6">
+    <h2 class="font-mono text-3xl text-[var(--primary)] mb-8" data-dz-editable="gallery-heading">&gt; Our Shop</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4"><div class="aspect-square rounded-2xl overflow-hidden" data-dz-id="gallery-0">
+              <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=900&q=80" alt="Gallery 1" class="w-full h-full object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=900&q=80'"/>
+            </div><div class="aspect-square rounded-2xl overflow-hidden" data-dz-id="gallery-1">
+              <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447a?auto=format&fit=crop&w=900&q=80" alt="Gallery 2" class="w-full h-full object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1622286342621-4bd786c2447a?auto=format&fit=crop&w=900&q=80'"/>
+            </div><div class="aspect-square rounded-2xl overflow-hidden" data-dz-id="gallery-2">
+              <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=80" alt="Gallery 3" class="w-full h-full object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=80'"/>
+            </div><div class="aspect-square rounded-2xl overflow-hidden" data-dz-id="gallery-3">
+              <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=900&q=80" alt="Gallery 4" class="w-full h-full object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=900&q=80'"/>
+            </div><div class="aspect-square rounded-2xl overflow-hidden" data-dz-id="gallery-4">
+              <img src="https://images.unsplash.com/photo-1621605815977-fbc98d665033?auto=format&fit=crop&w=900&q=80" alt="Gallery 5" class="w-full h-full object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1621605815977-fbc98d665033?auto=format&fit=crop&w=900&q=80'"/>
+            </div><div class="aspect-square rounded-2xl overflow-hidden" data-dz-id="gallery-5">
+              <img src="https://images.unsplash.com/photo-1493256338651-d823492a86df?auto=format&fit=crop&w=900&q=80" alt="Gallery 6" class="w-full h-full object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1493256338651-d823492a86df?auto=format&fit=crop&w=900&q=80'"/>
+            </div></div>
+  </section>
+  <section id="contact" data-dz-id="contact" class="py-24 px-6 text-center">
+    <h2 class="font-mono text-3xl text-[var(--primary)] mb-6" data-dz-editable="contact-heading">CONNECT</h2>
+    <p data-dz-editable="location">Barber Shop Star Club, 16 Bd Abdellatif Ben Kaddour, Casablanca 20250</p>
+    <p class="font-mono mt-4">+212 609 28 41 03 · hello@dripzone.ma</p>
+    <p class="mt-2">@dripzone.ma</p>
+    <div class="mt-6 font-mono text-sm"><div class="text-center" data-dz-id="hours">
+          <p class="mb-1" data-dz-editable="hours-weekday">Mon–Fri: 9:00 AM – 8:00 PM</p>
+          <p data-dz-editable="hours-weekend">Sat–Sun: 10:00 AM – 6:00 PM</p>
+        </div></div>
+  </section>
+  <footer class="py-6 text-center font-mono text-xs text-[var(--primary)]/50">DRIPZONE_ENGINE :: Barber Shop Star Club</footer>
+  <a href="https://wa.me/212600000000" class="fixed bottom-6 right-6 w-14 h-14 rounded-lg bg-green-400 text-black font-bold flex items-center justify-center z-50">WA</a>
+</body>
+<script src="js/main.js"></script>
+</html>
